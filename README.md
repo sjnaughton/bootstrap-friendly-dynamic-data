@@ -3,10 +3,15 @@
 [Bootstrap Friendly Dynamic Data](http://csharpbits.notaclue.net/2013/07/bootstrap-friendly-dynamic-data.html)
 
 ![The Default page when using this Project Template](BootstrapFriendlyDynamicDataProjectPreviewMedium.png)
+
 The Default page when using this Project Template
+
 ![The List Page](ListPageMedium.png)
+
 The List Page
+
 ![The Edit Page](EditPageMedium.png)
+
 The Edit Page
 
 ###Releasing updates###
