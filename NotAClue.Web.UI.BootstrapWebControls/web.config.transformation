@@ -1,0 +1,18 @@
+﻿<configuration>
+  <system.web>
+	<pages>
+	  <controls>
+		<!-- custom tag assignments -->
+		<add tagPrefix="nac" namespace="NotAClue.Web.UI.BootstrapWebControls" assembly="NotAClue.Web.UI.BootstrapWebControls" />
+		<!-- custom tag assignments -->
+	  </controls>
+	  <!-- custom tag mappings -->
+	  <tagMapping>
+		<!-- Bootstrap Freindly Controls -->
+		<add tagType="System.Web.UI.WebControls.Menu" mappedTagType="NotAClue.Web.UI.BootstrapWebControls.BootstrapMenu" />
+		<!-- Bootstrap Freindly Controls -->
+	  </tagMapping>
+	  <!-- custom tag mappings -->
+	</pages>
+  </system.web>
+</configuration>
