@@ -35,10 +35,10 @@ I'll be doign the best I can to add ALL my Dynamic Data addons to this project o
     12. **Cascading** - Allows related Foreign Key column s to filter each other.
     13. **CascadingHierarchical** - provides a cascading filter for single foreign key columns that have parent tables the they can be filtered by. 
 3. **Page Templates**
-    1. **New Details and Edit page templates that use the ChildrenList field template and a tab control to display selected child tables beneath the main FormView.
+    1. **New Details and Edit page templates** that use the ChildrenList field template and a tab control to display selected child tables beneath the main FormView.
     2. **Wizard** - This is just like the Insert or Edit page templates but uses the standard ASP.Net a wizard control and allows specifying which page each field should appear on.
-    3. **New List page with inline Edit and Insert plus Refresh button.
-    4. **Popup Insert and Edit page templates. 
+    3. **New List** page with inline Edit and Insert plus Refresh button.
+    4. **Popup** Insert page templates. 
 4. **Entity Templates**
     1. **Group** - This allows grouping fields into section with each section having a title.
     2. **Tabs** - Using Bootstrap Tabs
