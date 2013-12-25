@@ -46,4 +46,4 @@ I'll be doign the best I can to add ALL my Dynamic Data addons to this project o
 5. **Secured Dynamic Data** site with table and column security.
 6. **New Project Template** - Menus and all the above features installed out of the box. 
 
-Many of the templates are already available via NuGet from here and as I get the project setup here the rest will become available from NuGet also. 
+Many of the templates are already available via NuGet from [here](https://www.nuget.org/packages?q=DynamicData) and as I get the project setup here the rest will become available from NuGet also. 
