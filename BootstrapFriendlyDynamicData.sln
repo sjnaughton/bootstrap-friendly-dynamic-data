@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21126.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotAClue.Web.UI.BootstrapWebControls", "NotAClue.Web.UI.BootstrapWebControls\NotAClue.Web.UI.BootstrapWebControls.csproj", "{75E82891-D5F5-4B54-B7A5-31D550EA853A}"
 EndProject
@@ -14,7 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitFiles", "GitFiles", "{A1
 		BootstrapFriendlyDynamicDataProjectPreviewMedium.png = BootstrapFriendlyDynamicDataProjectPreviewMedium.png
 		BootstrapFriendlyDynamicDataProjectPreviewSmall.png = BootstrapFriendlyDynamicDataProjectPreviewSmall.png
 		BootstrapFriendlyDynamicDataProjectTemplate.ico = BootstrapFriendlyDynamicDataProjectTemplate.ico
+		EditPage.png = EditPage.png
+		EditPageMedium.png = EditPageMedium.png
 		LICENSE.md = LICENSE.md
+		ListPage.png = ListPage.png
+		ListPageMedium.png = ListPageMedium.png
 		README.md = README.md
 	EndProjectSection
 EndProject
