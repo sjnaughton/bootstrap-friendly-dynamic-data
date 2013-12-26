@@ -2,7 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotAClue.Web.UI.BootstrapWebControls", "NotAClue.Web.UI.BootstrapWebControls\NotAClue.Web.UI.BootstrapWebControls.csproj", "{75E82891-D5F5-4B54-B7A5-31D550EA853A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapFreindlyDynamicData", "BootstrapFreindlyDynamicData\BootstrapFreindlyDynamicData.csproj", "{66224CFA-8B8E-4631-909B-D0B387348DAC}"
@@ -22,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitFiles", "GitFiles", "{A1
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate", "ProjectTemplate\ProjectTemplate.csproj", "{0182ECFC-0684-460D-B721-606A61C775A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +37,10 @@ Global
 		{66224CFA-8B8E-4631-909B-D0B387348DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66224CFA-8B8E-4631-909B-D0B387348DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66224CFA-8B8E-4631-909B-D0B387348DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0182ECFC-0684-460D-B721-606A61C775A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0182ECFC-0684-460D-B721-606A61C775A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0182ECFC-0684-460D-B721-606A61C775A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0182ECFC-0684-460D-B721-606A61C775A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
