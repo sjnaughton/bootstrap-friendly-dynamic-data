@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" CodeBehind="Site.master.cs" Inherits="$safeprojectname$.Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="~/Content/favicon.png">
+
+	<title>Dynamic Data Site</title>
+
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+	<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+
+		<%-- TODO: Enable partial rendering by setting the EnablePartialRendering attribute to "true" to provide a smoother browsing experience.
+			 Leaving partial rendering disabled will provide a better debugging experience while the application is in development. --%>
+
+		<asp:ScriptManager runat="server" EnablePartialRendering="false">
+			<Scripts>
+				<asp:ScriptReference Path="~/Scripts/jquery-1.9.1.min.js" />
+				<asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+			</Scripts>
+		</asp:ScriptManager>
+
+		<nav class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ASP.Net Dynamic Data</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<asp:Menu ID="Menu1" runat="server" CssClass="nav navbar-nav"></asp:Menu>
+			</div>
+			<!-- /.navbar-collapse -->
+		</nav>
+
+		<div class="container">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>
+

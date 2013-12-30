@@ -19,7 +19,6 @@
         <div class="col-md-4">
             <h2>Overview</h2>
             <p>ASP.NET Dynamic Data lets you create extensible data-driven Web applications by inferring at run time the appearance and behavior of data entities from the database schema and deriving UI behavior from it.</p>
-
             <p><a class="btn btn-default" href="http://msdn.microsoft.com/en-us/library/ee845452%28v=vs.100%29.aspx" role="button" target="_blank">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">

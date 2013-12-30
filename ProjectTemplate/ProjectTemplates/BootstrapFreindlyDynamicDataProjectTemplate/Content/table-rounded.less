@@ -1,0 +1,38 @@
+﻿/* Back to Bootstrap 2 rounded tables */
+
+.add-rounded-tables(@border-color: #ccc) {
+    .table-rounded {
+        border-collapse: separate;
+        border: solid @border-color 1px;
+        border-radius: 6px;
+        border-left: 0px;
+        border-top: 0px;
+
+        & > thead:first-child > tr:first-child > th {
+            border-bottom: 0px;
+            border-top: solid @border-color 1px;
+        }
+
+        & td, 
+        & th {
+            border-left: 1px solid @border-color;
+            border-top: 1px solid @border-color;
+        }
+
+        & > :first-child > :first-child > :first-child {
+            border-top-left-radius: 6px;
+        }
+
+        & > :first-child > :first-child > :last-child {
+            border-top-right-radius: 6px;
+        }
+
+        & > :last-child > :last-child > :first-child {
+            border-bottom-left-radius: 6px;
+        }
+
+        & > :last-child > :last-child > :last-child {
+            border-bottom-right-radius: 6px;
+        }
+    }
+}
