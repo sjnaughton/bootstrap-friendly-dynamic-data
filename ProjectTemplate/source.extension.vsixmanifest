@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="BootstrapFreindlyDynamicDataProjectTemplate..cf5b7b55-c4f7-4d72-826c-d61728d0918f" Version="1.0" Language="en-US" Publisher="Stephen J Naughton" />
+    <Identity Id="BootstrapFreindlyDynamicDataProjectTemplate..cf5b7b55-c4f7-4d72-826c-d61728d0918f" Version="1.2" Language="en-US" Publisher="Stephen J Naughton" />
     <DisplayName>BootstrapFreindlyDynamicDataProjectTemplate</DisplayName>
     <Description xml:space="preserve">Bootstrap Freindly Dynamic Data Entity Framework Project Template</Description>
     <MoreInfo>http://csharpbits.notaclue.net/2013/07/bootstrap-friendly-dynamic-data.html</MoreInfo>
@@ -10,10 +10,10 @@
     <Tags>Bootstrap,Dynamic Data,Entity Framework</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[11.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
   </Installation>
   <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\BootstrapFreindlyDynamicDataProjectTemplate.zip" />

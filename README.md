@@ -1,5 +1,8 @@
 #Bootstrap Freindly Dynamic Data
 
+##Project Update
+Just a note I will be breaking this into two projects this and the Bootstrap Web Controls soon
+
 [Bootstrap Friendly Dynamic Data](http://csharpbits.notaclue.net/2013/07/bootstrap-friendly-dynamic-data.html)
 
 ![The Default page when using this Project Template](BootstrapFriendlyDynamicDataProjectPreviewMedium.png)

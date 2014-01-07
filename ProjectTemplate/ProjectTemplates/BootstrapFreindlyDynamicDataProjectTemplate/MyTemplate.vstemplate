@@ -16,10 +16,6 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="BootstrapFreindlyDynamicData.csproj" File="BootstrapFreindlyDynamicData.csproj" ReplaceParameters="true">
-      <Folder Name="App_Data" TargetFolderName="App_Data">
-        <ProjectItem ReplaceParameters="false" TargetFileName="Northwind.MDF">Northwind.MDF</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Northwind_log.ldf">Northwind_log.ldf</ProjectItem>
-      </Folder>
       <Folder Name="Content" TargetFolderName="Content">
         <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.css">bootstrap-theme.css</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.min.css">bootstrap-theme.min.css</ProjectItem>
@@ -172,26 +168,6 @@
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
-      <Folder Name="Models" TargetFolderName="Models">
-        <ProjectItem ReplaceParameters="false" TargetFileName="NorthwindModel.edmx">NorthwindModel.edmx</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="NorthwindModel.Context.tt">NorthwindModel.Context.tt</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="NorthwindModel.Context.cs">NorthwindModel.Context.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="NorthwindModel.Designer.cs">NorthwindModel.Designer.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="NorthwindModel.edmx.diagram">NorthwindModel.edmx.diagram</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="NorthwindModel.tt">NorthwindModel.tt</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Category.cs">Category.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Customer.cs">Customer.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CustomerDemographic.cs">CustomerDemographic.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Employee.cs">Employee.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="NorthwindModel.cs">NorthwindModel.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Order.cs">Order.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Order_Detail.cs">Order_Detail.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Product.cs">Product.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Region.cs">Region.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Shipper.cs">Shipper.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Supplier.cs">Supplier.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Territory.cs">Territory.cs</ProjectItem>
-      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
